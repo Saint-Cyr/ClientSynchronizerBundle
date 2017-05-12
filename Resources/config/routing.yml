@@ -1,0 +1,3 @@
+saint_cyr_client_synchronizer_homepage:
+    path:     /
+    defaults: { _controller: SaintCyrClientSynchronizerBundle:Default:index }

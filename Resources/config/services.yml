@@ -1,0 +1,4 @@
+services:
+#    saint_cyr_client_synchronizer.example:
+#        class: SaintCyr\ClientSynchronizerBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
