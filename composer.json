@@ -27,5 +27,13 @@
     "branch-alias" : {
       "dev-master" : "0.1-dev"
     }
-  }
+  },
+
+    "require" : {
+        "saintcyr/clientsynchronizerbundle" : "dev-master"
+    },
+    "repositories" : [{
+        "type" : "vcs",
+        "url" : "https://github.com/Saint-Cyr/ClientSynchronizerBundle.git"
+    }],
 }
