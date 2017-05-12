@@ -11,8 +11,6 @@
 
   "license":["MIT"],
 
-  "require": {},
-
   "autoload": {
     "psr-0": {
       "SaintCyr\\ClientSynchronizerBundle":""
@@ -29,11 +27,11 @@
     }
   },
 
-    "require" : {
-        "saintcyr/clientsynchronizerbundle" : "dev-master"
+  "require" : {
+      "saintcyr/clientsynchronizerbundle" : "dev-master"
     },
-    "repositories" : [{
-        "type" : "vcs",
-        "url" : "https://github.com/Saint-Cyr/ClientSynchronizerBundle.git"
+  "repositories" : [{
+      "type" : "vcs",
+      "url" : "https://github.com/Saint-Cyr/ClientSynchronizerBundle.git"
     }],
 }
