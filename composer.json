@@ -1,16 +1,10 @@
 {
   "name":"saintcyr/clientsynchronizerbundle",
-
   "description":"Symfony bundle for synchronization of Data between two Symfony Apps. (Client side)",
-
   "type":"symfony-bundle",
-
   "authors":[{"name":"Saint-Cyr", "email":"mapoukacyr@yahoo.fr" }],
-
   "keywords":["synchronizer bundle"],
-
   "license":["MIT"],
-
   "autoload": {
     "psr-0": {
       "SaintCyr\\ClientSynchronizerBundle":""
@@ -28,7 +22,8 @@
   },
 
   "require" : {
-      "saintcyr/clientsynchronizerbundle" : "dev-master"
+      "saintcyr/clientsynchronizerbundle" : "dev-master",
+       "Indaxia/doctrine-orm-transformations": "2.*"
     },
 
   "repositories" : [{
